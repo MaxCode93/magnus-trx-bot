@@ -8,7 +8,7 @@ from telegram import Bot, Update, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyb
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, ConversationHandler, Filters
 
 # Token del bot
-TOKEN = "7130462783:AAFghcAReKgo0uReVkBdxwXkMPZoYxXExbQ"
+TOKEN = "7130462783:AAFgm2S5R6tRqNON1oVymoynvCKcDtqbkt0"
 ADMIN_ID = '1244656140'
 CHANNEL  = "@magnus_trx"
 ADMIN_WALLET = "TBUmsefmBgCfsHmuTGYWwmVGLyv9XvKhr5"
