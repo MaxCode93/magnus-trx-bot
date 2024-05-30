@@ -8,7 +8,7 @@ from telegram import Bot, Update, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyb
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, ConversationHandler, Filters
 
 # Token del bot
-TOKEN = "7130462783:AAGA8OkSiUSIf0nqkw1I7GBseP7kzofPxsI"
+TOKEN = "7130462783:AAFghcAReKgo0uReVkBdxwXkMPZoYxXExbQ"
 ADMIN_ID = '1244656140'
 CHANNEL  = "@magnus_trx"
 ADMIN_WALLET = "TBUmsefmBgCfsHmuTGYWwmVGLyv9XvKhr5"
@@ -65,7 +65,7 @@ def remove_trailing_zeros(num):
 # Menus
 main_menu = [[KeyboardButton("🔥 Deposit")],
     [KeyboardButton("💸 Withdraw"), KeyboardButton("💳 Account"), KeyboardButton("♻️ Reinvest")],
-    [KeyboardButton("👥 Referrals"),KeyboardButton("🎁 Bonus"), KeyboardButton("ℹ️ Info")]
+    [KeyboardButton("👥 Referrals"),KeyboardButton("🎁 Bonus")]
 ]
 
 account_menu = [
